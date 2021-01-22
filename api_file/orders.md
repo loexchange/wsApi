@@ -67,18 +67,18 @@ orders_$symbol
    
     | 字段名 | 数据类型 | 描述 |
     | --- | --- | --- |
-    | eventType | string |事件类型，有效值：trade |
+    | eventType | string |事件类型，有效值：cancellation |
     | symbol | string | 交易币对 |
     | uid | integer | 用户id |
     | orderId | string | 订单号 |
-    | source | string | 订单来源，有效值：WEB,APP,API,H5,API-INNER |
+    | orderSource | string | 订单来源，有效值：WEB,APP,API,H5,API-INNER |
     | orderPrice | string | 订单价格 |
     | orderSize | string | 订单数量 |
     | remainAmt | string | 剩余数量 |
     | execAmt | string | 累计成交量 |
     | orderSide | string | 订单方向，有效值：BUY,SELL |
     | orderStatus | string | 订单状态，有效值：0 初始订单，1 新订单，2 完全成交，3 部分成交，4 已撤单，5 待撤单，6 异常订单 |
-    | orderUpdateTime | long | 订单更新时间 |
+    | lastActTime | long | 订单更新时间 |
     | orderType | string | 委托类型 1:限价委托 2:市价委托 |
 
 - 示例
