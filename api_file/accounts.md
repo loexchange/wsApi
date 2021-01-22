@@ -21,7 +21,7 @@ accounts_update
     | coin | string | 币种 |
     | account | long | 账户信息 |
     | balance | String | 账户余额|
-    | changeType | string | 余额变动类型，有效值：order-place(订单创建)，order-match(订单成交)，order-refund(订单成交退款)，order-cancel(订单撤销)，deposit (充币）, withdraw (提币)，other(其他资产变化) |
+    | changeType | string | 余额变动类型，有效值：order-create(订单创建)，order-match(订单成交)，order-refund(订单成交退款)，order-cancel(订单撤销)，deposit (充币）, withdraw (提币)，other(其他资产变化) |
     | accountType | string | 账户类型，有效值：normal, frozen |
     | changeTime | long | 余额变动时间，unix time in millisecond |
 
