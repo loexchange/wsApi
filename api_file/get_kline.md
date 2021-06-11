@@ -15,7 +15,7 @@ market_$symbol_kline_$period
   | 参数 | 数据类型 | 描述 |
   | --- | --- | --- |
   | symbol | string | 交易币对 |
-  | period | string | K线周期(1min, 5min, 15min, 30min, 60min, 4h, 1day, 1mon, 1week) |
+  | period | string | K线周期(1min, 5min, 15min, 30min, 60min, 4hour, 1day, 1mon, 1week) |
 
 - 返回信息
 
